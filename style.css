@@ -94,7 +94,7 @@ html,body{
 }
 
 .nav-item{
-  margin-left:35px;
+  margin-right:25px;
 }
 .social-icons{
   position: relative;
@@ -145,8 +145,8 @@ footer{
 }
 
 .img-fluid{
-  max-width: 100%;
-  max-height: 50%;
+  max-width: ;
+  height: 500px;
 }
 
 .btn-large{
@@ -157,9 +157,6 @@ footer{
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1450px)  {
-  .carousel-item{
-    height: 400px;
-  }
   .parallax{
     background-attachment: unset;
   }
@@ -189,24 +186,12 @@ and (max-device-width : 1450px)  {
   .jumbotron{
     width: 100%;
   }
-
-  footer{
-    font-size: 0.8rem;
-  }
-  h1{
-    font-size: 2rem;
-  }
 }
-
-
 
 @media only screen 
 and (max-device-width : 767px)  {
   .parallax{
     background-attachment: unset;
-  }
- .carousel-item{
-    max-height: 300px;
   }
 
   .carousel-caption{
@@ -219,7 +204,7 @@ and (max-device-width : 767px)  {
   }
 
   .row.content-container{
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
 
   .jumbotron{
@@ -228,12 +213,11 @@ and (max-device-width : 767px)  {
   }
 
   .h2-heading{
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .jumbotron-row{
-    display: flex; 
-    flex-flow: column;
+    display: flex; flex-flow: column;
   }
 
   .jumbotron-two{
@@ -243,5 +227,16 @@ and (max-device-width : 767px)  {
     order:2;
   }
 
-  
+  .image-first{
+    background-image: url("images/eat-healthy-mini.jpg");
+  }
+  .image-second{
+    background-image: url("images/apricots.jpg");
+  }
+  .image-third{
+    background-image: url("images/Fruit_Berry_White_background_Design.jpg");
+  }
+  .image-fourth{
+    background-image: url("images/superfoods-pic-1.png");
+  }
 }
