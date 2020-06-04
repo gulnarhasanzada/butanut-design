@@ -199,7 +199,9 @@ and (max-device-width : 1450px)  {
 
 @media only screen 
 and (max-device-width : 767px)  {
-
+.carousel-item{
+  height: 400px;
+}
 
   .carousel-caption{
     width: 55%;
