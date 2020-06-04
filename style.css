@@ -186,6 +186,9 @@ and (max-device-width : 1450px)  {
   .jumbotron{
     width: 100%;
   }
+  footer{
+    font-size: 0.8rem;
+  }
 }
 
 @media only screen 
