@@ -94,7 +94,7 @@ html,body{
 }
 
 .nav-item{
-  margin-right:25px;
+  margin-left:35px;
 }
 .social-icons{
   position: relative;
@@ -145,8 +145,8 @@ footer{
 }
 
 .img-fluid{
-  width: 100%;
-  max-height: 500px;
+  max-width: 100%;
+  max-height: 50%;
 }
 
 .btn-large{
@@ -212,7 +212,8 @@ and (max-device-width : 767px)  {
   }
 
   .jumbotron-row{
-    display: flex; flex-flow: column;
+    display: flex; 
+    flex-flow: column;
   }
 
   .jumbotron-two{
