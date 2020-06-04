@@ -157,6 +157,10 @@ footer{
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1450px)  {
+  .carousel-item{
+  
+  height: 400px;
+}
   .image-first{
     background-image: url("images/eat-healthy-mini.jpg");
   }
@@ -199,9 +203,7 @@ and (max-device-width : 1450px)  {
 
 @media only screen 
 and (max-device-width : 767px)  {
-.carousel-item{
-  height: 400px;
-}
+
 
   .carousel-caption{
     width: 55%;
